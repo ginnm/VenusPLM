@@ -10,7 +10,23 @@ You can install VenusPLM and its dependencies using pip:
 To install VenusPLM, follow these steps:
 1. Clone the repository: `git clone https://github.com/ai4protein/VenusPLM.git`
 2. Navigate to the project directory: `cd VenusPLM`
-3. Install the required dependencies: `pip install -r requirements.txt`
+3. Install the required dependencies: 
+- Install PyTorch
+```bash
+pip3 install torch torchvision torchaudio
+```
+- Install Transformers
+```bash
+pip3 install transformers
+```
+- Install flash-attn
+```bash
+pip install flash-attn --no-build-isolation
+```
+- Install other dependencies
+```bash
+pip install -r requirements.txt
+```
 
 ## Usage
 To use VenusPLM, follow these steps:

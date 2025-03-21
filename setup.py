@@ -19,22 +19,22 @@ setup(
         "Source Code": "https://github.com/ai4protein/VenusPLM",
     },
     classifiers=[
-        "Programming Language :: Python :: 3",
-        "Programming Language :: Python :: 3.7",
-        "Programming Language :: Python :: 3.8",
-        "Programming Language :: Python :: 3.9",
         "Programming Language :: Python :: 3.10",
+        "Programming Language :: Python :: 3.11",
+        "Programming Language :: Python :: 3.12",
+        "Programming Language :: Python :: 3.13",
+        "Programming Language :: Python :: 3.14",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
         "Development Status :: 3 - Alpha",
         # See more at: https://pypi.org/classifiers/
     ],
     packages=find_packages(include=["venusplm", "venusplm.*"]),
-    python_requires=">=3.7",
+    python_requires=">=3.10",
     install_requires=[
-        "numpy>=1.19.0",
-        "pandas>=1.1.0",
-        # Add other dependencies here
+        "torch>=2.5.0",
+        "transformers",
+        "biopython",
     ],
     extras_require={
         "dev": [
