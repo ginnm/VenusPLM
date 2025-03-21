@@ -5,19 +5,7 @@
 VenusPLM is a project focused on developing and utilizing protein language models to understand and predict protein structures and functions.
 
 ## Installation
-- Install PyTorch
-```bash
-pip3 install torch torchvision torchaudio
-```
-- Install Transformers
-```bash
-pip3 install transformers
-```
-- Install flash-attn
-https://github.com/Dao-AILab/flash-attention/tree/main
-```bash
-pip install flash-attn --no-build-isolation
-```
+You can install VenusPLM and its dependencies using pip:
 
 To install VenusPLM, follow these steps:
 1. Clone the repository: `git clone https://github.com/ai4protein/VenusPLM.git`
@@ -29,5 +17,5 @@ To use VenusPLM, follow these steps:
 1. Prepare your protein data.
 2. Run the model: `python run_model.py --input your_protein_data.fasta --output results.txt`
 
-## Visualization
-![VenusPLM](VenusPLM.png)
+## Sequence Packing Attention Visualization
+![VenusPLM](benchmark/figures/attention_visualization.png)
