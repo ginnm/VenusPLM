@@ -19,7 +19,7 @@ pip3 install torch torchvision torchaudio
 ```bash
 pip3 install transformers
 ```
-- Install flash-attn
+- Install flash-attn (Optional)
 ```bash
 pip install flash-attn --no-build-isolation
 ```
