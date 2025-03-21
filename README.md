@@ -2,7 +2,7 @@
 ![VenusPLM](VenusPLM.png)
 
 ## Description
-VenusPLM is a project focused on developing and utilizing protein language models to understand and predict protein structures and functions.
+VenusPLM is a project focused on developing Versatile Embedding Network for Understanding Sequences
 
 ## Installation
 You can install VenusPLM and its dependencies using pip:
