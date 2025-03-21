@@ -559,7 +559,7 @@ class TransformerForCausalLM(BaseTransformerModel):
         super().__init__(config)
         self.model = TransformerModel(config, causal=True)
         self.lm_head = nn.Linear(config.hidden_size, config.vocab_size, bias=False)
-        self.init_weights()
+        self.post_init()
 
     def forward(
         self,
