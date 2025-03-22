@@ -31,7 +31,6 @@ pip install -r requirements.txt
 ## Usage
 To use VenusPLM, follow these steps:
 1. Prepare your protein data.
-2. Run the model: `python run_model.py --input your_protein_data.fasta --output results.txt`
 
 ## Sequence Packing Attention Visualization
 ![VenusPLM](benchmark/figures/attention_visualization.png)
